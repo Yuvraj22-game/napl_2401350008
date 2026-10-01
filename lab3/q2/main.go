@@ -41,13 +41,12 @@ func main() {
 	p1 := new(Person)
 
 	fmt.Println("\nperson details before modification:")
-	fmt.Println(*p1)
 	fmt.Println("Name : ", p1.Name)
 	fmt.Println("Age : ", p1.Age)
 	fmt.Println("Job : ", p1.Job)
+
 	modifyStructure(p1)
 	fmt.Println("\nperson details after modification:")
-	fmt.Println(*p1)
 	fmt.Println("Name : ", p1.Name)
 	fmt.Println("Age : ", p1.Age)
 	fmt.Println("Job : ", p1.Job)
